@@ -29,7 +29,6 @@ const handleMultiPartFormData = multer({
 
 
 const productController = {
-
     //*******************  Create a product **************************** //
     async store(req, res, next) {
         // multipart/form-data

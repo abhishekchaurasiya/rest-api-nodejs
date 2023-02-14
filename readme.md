@@ -1,16 +1,3 @@
-emails for interns job:=
-Should have experience working on mysql, Nodejs, Expressjs, sequelize ORM.
-
-1. kinetrix technology hr mail id (kmanju@gmail.com)
-2. PRAXINFO is hiring interns for NodeJs Developing email id (umang@praxinfo.com)
-3. Offiql Technologies Private Limited is hiring interns for ReactJS Development email id (pulkitmittal.business@gmail.com)
-4. Acies is hiring interns for Full Stack Developer Interested candidates apply for this internship at - srijan.raychaudhuri@gmail.com
-5. Cendrol is hiring interns for React JS Developer Interested candidates apply for this internship at - rahul@cendrol.com
-6. MonetizeMore is hiring interns for Web Developer Intern (Remote) Interested candidates apply for this internship at -
-   nkmundhra49@gmail.com
-7. Intel Corporation is hiring interns for Software DevelopmentInterested candidates apply for this internship at - nilabh.srivastava@gmail.com , sumanasrivastava04@gmail.com
-8. hr@codagehabitation.com disha prajapati
-
 
 Full Rest APIs :-
 requirement:-

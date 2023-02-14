@@ -9,12 +9,12 @@ import { RFRESH_SECRET_KEY } from "../../config";
 const loginController = {
     async login(req, res, next) {
         // validation 
-        const loginSchem = Joi.object({
+        const loginSchema = Joi.object({
             email: Joi.string().email().required(),
             password: Joi.string().pattern(new RegExp('^[a-zA-Z0-9]{3,30}$')).required(),
         });
 
-        const { error } = loginSchem.validate(req.body);
+        const { error } = loginSchema.validate(req.body);
         if (error) {
             return next(error)
         };

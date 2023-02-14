@@ -1,4 +1,3 @@
-import { UserModel } from "../model";
 import CustomErrorHandler from "../service/CustomErrorHandler";
 import JwtServices from "../service/JwtServices";
 

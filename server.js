@@ -18,6 +18,7 @@ db.once('open', () => {
 
 // Here gets current folder path
 global.appRoot = path.resolve(__dirname)
+
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }))
 app.use("/api", router)

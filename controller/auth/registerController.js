@@ -46,7 +46,7 @@ const registerController = {
         let access_token;
         let refresh_token;
         try {
-            const result = await user.save()
+            const result = await user.save();
             access_token = JwtServices.sign({ _id: result._id, role: result.role });
             refresh_token = JwtServices.sign({ _id: result._id, role: result.role }, '1y', RFRESH_SECRET_KEY);
 
